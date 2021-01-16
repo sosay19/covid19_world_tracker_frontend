@@ -5,6 +5,7 @@ import collectionReducer from './collectionReducer'
 import countryDataReducer from './countryDataReducer'
 import countryReducer from './countryDataReducer'
 import provincesDataReducer from './provincesDataReducer'
+import mapDataReducer from './mapDataReducer'
 import cacheReducer from './cacheReducer'
 
 
@@ -17,7 +18,8 @@ const rootReducer = combineReducers({
     collection: collectionReducer,
     countryData: countryDataReducer, 
     country: countryReducer,
-    provincesData: provincesDataReducer
+    provincesData: provincesDataReducer,
+    mapData: mapDataReducer
 });
 
 export default rootReducer
